@@ -1,0 +1,20 @@
+.mainwork{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 600px) {
+    .mainwork{
+      flex-direction: column;
+      max-width: 100%;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 1rem;
+    }
+  }
+/* property sets below this max value */
+  @media(max-width:1024px){ 
+    .mainwork{
+      flex-direction: column;
+    }
+  }

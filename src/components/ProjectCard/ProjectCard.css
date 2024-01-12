@@ -1,0 +1,66 @@
+.project-card{
+    display: flex;
+    flex-direction: column;
+    max-width: 701px;
+    margin: auto;
+    font-size: 1.5rem;
+    font-family: Roboto,Helvetica,sans-serif;
+    margin-bottom: 2.5rem;
+    background-color: #1f1f1f;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+.project-card-heading{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    color: white;
+    margin-top: 1rem;
+}
+#light .project-card-heading{
+    background-color: #f8f8f8;
+    color: #1f1f1f;
+}
+#dark .project-card-heading{
+    background-color: #1f1f1f;
+    color: #f8f8f8;
+}
+.card-img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem 0.5rem;
+}
+@media (max-width: 600px) {
+    .project-card {
+      max-width: 100%;
+      margin-left: 20px;
+      margin-right: 20px;
+      /* font-size: 1rem; */
+      flex-direction:column;
+    }
+  }
+.buttons{ 
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    cursor: pointer;
+    color: white ;
+    background-color:#1f1f1f ;
+    padding:8px;
+    border:2px solid black ;
+    border-radius:25px ;
+    margin-top:1rem ;
+    margin-bottom:1rem ;
+}
+#light .buttons{
+    background-color: #f8f8f8;
+    color:#1f1f1f;
+}
+#dark .buttons{
+    background-color: #1f1f1f;
+    color:#f8f8f8;
+}
