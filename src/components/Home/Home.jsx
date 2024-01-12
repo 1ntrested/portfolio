@@ -11,6 +11,10 @@ function Home() {
     // window.location.href=props.link;
     window.open('https://www.linkedin.com/in/balraj-singh-06b34326b/','_blank');
   }
+  const movetoX=()=>{
+    // window.location.href=props.link;
+    window.open('https://twitter.com/ibalraj12/','_blank');
+  }
   return (
     <div className='content'>
         <div className="class-img">
@@ -28,7 +32,7 @@ function Home() {
         <div className='icons'>
         <Link className='lists' to='/' onClick={movetogithub}><i class="fa-brands fa-github fa-2xl"></i></Link>
         <Link className='lists' to='/' onClick={movetoLinkedin}><i class="fa-brands fa-linkedin-in fa-2xl"></i></Link>
-        <Link className='lists' to='/' onClick={movetoLinkedin}><i class="fa-brands fa-x-twitter fa-2xl"></i></Link>
+        <Link className='lists' to='/' onClick={movetoX}><i class="fa-brands fa-x-twitter fa-2xl"></i></Link>
         </div>
         </div>
     </div>
