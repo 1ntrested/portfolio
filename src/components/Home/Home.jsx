@@ -11,9 +11,15 @@ function Home() {
     // window.location.href=props.link;
     window.open('https://www.linkedin.com/in/balraj-singh-06b34326b/','_blank');
   }
+<<<<<<< HEAD
   const movetoX=()=>{
     // window.location.href=props.link;
     window.open('https://twitter.com/ibalraj12/','_blank');
+=======
+    const movetoX=()=>{
+    // window.location.href=props.link;
+    window.open('https://twitter.com/ibalraj12','_blank');
+>>>>>>> origin/main
   }
   return (
     <div className='content'>
